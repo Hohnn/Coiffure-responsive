@@ -50,33 +50,31 @@
   src: local("ressources/fonts/Autography.ttf");
 }
 
-/* ici commence le formulaire de contact */
+/* ici commence le Plan du site*/
 
-#contact {
-    margin-left: 10%;
-    width: 50%;
+section  {
+    margin-left: 30%;
 }
-#contact h1{
+
+
+section h1{
+    margin-left: -5%;
+    font-size: 2em;
     color: #E3CC1D;
-    margin-top: 4%;
-    margin-bottom: 4%;
+}
+section h2 {
+    margin-top: 5%;
+    margin-left: -5%;
+    color: #E3CC1D;
+    
 }
 
-#frmContact input,textarea{
-    display: flex;
-    width: 70%;
-    height: 2em;
+section a {
+    text-decoration: none;
+    color: #707070;    
+    
 }
-#frmContact textarea {
-    height: 150px;
-    resize: none;
-}
-
-#frmContact button {
-    margin-top: 1em;
-} 
-
-/* ici se termine le formulaire de contact */
+/* ici se termine le Plan du site*/
 
 #footNav {
   margin-right: 10%;
