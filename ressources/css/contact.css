@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Autography";
+  font-family: "Autography",Arial, Helvetica, sans-serif
   src: local("ressources/fonts/Autography.otf");
 }
 
@@ -50,12 +50,33 @@
   src: local("ressources/fonts/Autography.ttf");
 }
 
+/* ici commence le formulaire de contact */
+
 #contact {
-  display: flex;
+    margin-left: 10%;
+    width: 50%;
+}
+#contact h1{
+    color: #E3CC1D;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
+#frmContact input,textarea{
+    display: flex;
+    width: 70%;
+    height: 2em;
+}
+#frmContact textarea {
+    height: 150px;
+    resize: none;
+}
 
+#frmContact button {
+    margin-top: 1em;
+} 
 
+/* ici se termine le formulaire de contact */
 
 #footNav {
   margin-right: 10%;
