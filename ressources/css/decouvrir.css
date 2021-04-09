@@ -1,0 +1,43 @@
+p {    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+  
+  
+  
+  #background {width: 100%; height: 1200px; background-image: url("https://www.wallpapertip.com/wmimgs/76-761019_344736-title-women-face-wallpaper-hair-color-model.jpg"); background-size: contain; background-repeat: no-repeat; }
+  #headLogo {  margin-left: 10%; width: 34%;  height: 20%; display: flex;}
+  #imageLogo { height: 100%; width: 45%;  display:flex}
+  #texteLogo { height: 80%; width: 70%; display: flex; margin-top: 4%; margin-bottom: 4%;}
+  #navBarre {  margin-left: 10%; width: 50%;   height: 4%; display: flex; margin-right: 10%;}
+  #navBarreText {width: 100%; height: 100%;  darkviolet; display: ; display: flex;  justify-content: space-between; font-size:30px; font-family:"Autography"; src: local("ressources/fonts/Autography.ttf");}
+  #carousel { margin-right: 10%; margin-left: 10%; width: 50%;   height: 15%; display: flex; margin-top: 1%; background-color: darkviolet;}
+  #imgCarousel {width: 25%; height: 100%; background-color: deepskyblue; display:flex}
+  #footNav { margin-right: 10%; margin-left: 10%; width: 50%;   height: 4%; display:flex; margin-top: 1%;}
+  #footNavTexte {width: 100%; height: 100%;  darkviolet; display: flex;  align-content: space-between; font-size: 30px; justify-content: space-between;}
+  #container1 {margin-left: 10%; width: 50%; height: 40%; margin-top: 0%; display: flex;}
+  #container2 {width: 20%; height: 100%;  cyan; display: flex;}
+  #réseauxSociaux {width: 25%; height: 30%; margin-left: 5%;  darkgoldenrod; display: flex;}
+  #imgRéseauxSociaux { width: 25%; height: 40px;  margin-top:10%; display: flex; margin-left: 20%;}
+  #imgRéseauxSociaux2 { width: 25%; height: 40px;   margin-top:10%; display: flex;margin-left: 20%; }
+  #container3 {width: 20%; height: 100%;   display: flex; flex-direction: column; font-size: 20px}
+  #localisation {width: 60%; height: 100%;  ; display: flex; }
+  #texteLocalisation {width: 100%; height: 50%;  darkslateblue; display: flex; }
+  #texteContact {width: 10%; height: 50%;  display: flex; }
+  #horaires {margin-left: 10%; width: 50%; height: 6%;  margin-top: 1%; display: flex;}
+  #containerHoraires {width: 20%; height: 100%;   display: flex;}
+  #texteHoraires { width: 80%; height: 100%;   margin-top: 0%; display: flex; font-size: 25px;}
+  @font-face { font-family: "Autography"; src: local("ressources/fonts/Autography.otf");}
+
+
+  #containerDecouvrir {margin-left: 10%; width: 50%;  height: 40%; display: flex;  margin-top: 2%; justify-content: space-around;}
+  #photoDecouvrir { margin-top: 5%; margin-bottom: 5%; width: 25%; height: 50%; }
+  #containerDecouvrir2 { margin-top: 5%; margin-bottom: 5%; width: 50%; height: 90%;  display: flex; flex-direction:column ; justify-content: space-around;}
+  #containerDecouvrir3 { margin-top: 5%; margin-bottom: 5%; width: 18%; height: 30%; display: flex; flex-direction: column;}
+  #lineTitreDecouvrir {width: 100%; height: 15%;  font-size: 30px;}
+  #decouvrirPrix {width: 30%; height: 20%;  color: crimson; font-size: 25px; display: flex; justify-content: center;}
+  #decouvrirDescription {width: 100%; height: 50%; ;}
+  #recapPrix {width: 100%; height: 33%;  color: crimson; font-size: 25px; display: flex; justify-content: center}
+  #validerTexte {width: 100%; height: 33%;font-size: 20px; display: flex; justify-content: center;}
+  #imgValider {width: 28%; height: 30%;  display: flex; margin-top: 3%; margin-left: 33%;}
+
