@@ -1,0 +1,99 @@
+
+#background {width: 100%; height: 1200px; background-image: url("https://www.wallpapertip.com/wmimgs/76-761019_344736-title-women-face-wallpaper-hair-color-model.jpg"); background-size: contain; background-repeat: no-repeat; }
+#headLogo {  margin-left: 10%; width: 34%;  height: 20%; display: flex;}
+#imageLogo { height: 100%; width: 45%;  display:flex}
+#texteLogo { height: 80%; width: 70%; display: flex; margin-top: 4%; margin-bottom: 4%;}
+#navBarre {  margin-left: 10%; width: 50%;   height: 4%; display: flex; margin-right: 10%;}
+#navBarreText {width: 100%; height: 100%;  darkviolet; display: ; display: flex;  justify-content: space-between; font-size:25px; font-family:"Autography"; src: local("ressources/fonts/Autography.ttf");}
+#carousel { margin-right: 10%; margin-left: 10%; width: 50%;   height: 15%; display: flex; margin-top: 1%; background-color: darkviolet;}
+#imgCarousel {width: 25%; height: 100%; background-color: deepskyblue; display:flex}
+#footNav { margin-right: 10%; margin-left: 10%; width: 50%;   height: 4%; display:flex; margin-top: 1%;}
+#footNavTexte {width: 100%; height: 100%;  darkviolet; display: flex;  align-content: space-between; font-size: 25px; justify-content: space-between;}
+#container1 {margin-left: 10%; width: 50%; height: 40%; margin-top: 0%; display: flex; }
+#container2 {width: 20%; height: 100%;  cyan; display: flex;}
+#réseauxSociaux {width: 25%; height: 30%; margin-left: 5%;  darkgoldenrod; display: flex;}
+#imgRéseauxSociaux { width: 25%; height: 40px;  darkorchid; margin-top:10%; display: flex; margin-left: 20%;}
+#imgRéseauxSociaux2 { width: 25%; height: 40px;   margin-top:10%; display: flex;margin-left: 20%; }
+#container3 {width: 20%; height: 100%;   display: flex; flex-direction: column; font-size: 20px}
+#localisation {width: 60%; height: 100%;  ; display: flex; }
+#texteLocalisation {width: 100%; height: 50%;  darkslateblue; display: flex; }
+#texteContact {width: 10%; height: 50%;  display: flex; }
+#horaires {margin-left: 10%; width: 50%; height: 6%;  margin-top: 1%; display: flex;}
+#containerHoraires {width: 20%; height: 100%;   display: flex;}
+#texteHoraires { width: 80%; height: 100%;   margin-top: 0%; display: flex; font-size: 25px;}
+@font-face { font-family: "Autography"; src: local("ressources/fonts/Autography.otf");}
+
+
+#slider figure  {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  overflow: 1000px;
+  animation: 30s slidy infinite;
+}
+#slider { width: 20%; height: auto; float: left; }
+#slider figure img { width: 20%; height: auto; float: left; }
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    10% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
+
+  .trois{ width: 150px%;border-radius: 10px;background-color:white;box-shadow: 5px 5px 5px rgb(228, 225, 225);border-style: none;}
+  legend{display: block;text-align: center;font-size: 25px;border-radius: 10px;background-color: rgb(255, 255, 255);border-style: none;font-weight: bold;float: left;margin-bottom: 20px;width: 100%;}
+  .valider{background-color: rgb(248, 244, 15);border-color: rgb(248, 143, 5);border-radius: 5px;width: 20%;margin-left: 40%;display:inline-block;}
+  .image {width: 70%;margin-left: 15%;}
+  ol li{list-style:none;}
+  label{display: inline-block;float: left;clear:left;width: 150px;text-align: left;}
+  input {display: inline-block;/*float: left;*/width: 180px;}
+  fieldset {border: thin solid rgb(255, 255, 255);padding: 1em;margin: 0 auto;width: 75%;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;} 
+  .creervotrecompte{
+    width: 500px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  li{list-style:none;}
+  td {
+      border-width:1px; 
+      border-style:solid; 
+      border-color:rgb(209, 202, 202);
+      }
+  .tdnone{
+      border-width:1px; 
+      border-style:solid; 
+      border-color:rgba(0, 0, 0, 0);
+  }
+  table{
+      margin:auto;
+  }
+  .information{
+      border-style:solid; 
+      border-color:rgba(0, 0, 0, 0);
+      background: linear-gradient(#faf9f4, #e0e0cf);
+      text-align: center;
+  }
+  
+  .tablo1{
+      border-style:solid; 
+      border-color:rgba(0, 0, 0, 0);
+      background: linear-gradient(#faf9f4, #e0e0cf);
+      text-align: left;
+  }
+  
+  .rendez_vous{
+      border-color:rgba(0, 0, 0, 0);
+      text-align: center;  
+  }
+  .promo{
+      text-align: center;
+  }
