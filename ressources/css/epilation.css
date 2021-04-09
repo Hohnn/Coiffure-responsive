@@ -54,11 +54,20 @@
 
 table {
   margin-left: 10%;
-  margin-top: 1em;
+  margin-top: 3em;
   font-size: 1em;
-
 }
 
+.service {
+  width: 40%;
+}
+
+.space {
+  width: 1.8%;
+}
+.prix {
+  width: 5%;
+}
 .imgTab {
   width: 30px;
   height: 30px;
@@ -66,6 +75,12 @@ table {
 
 #creneauxLibres {
   margin-left: 10%;
+  
+}
+#creneauxLibres a {
+  color: #E3CC1D;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 /* ici se termine le tableau */
 

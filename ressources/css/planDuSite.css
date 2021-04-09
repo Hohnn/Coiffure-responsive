@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Autography",Arial, Helvetica, sans-serif
+  font-family: "Autography",Arial, Helvetica, sans-serif;
   src: local("ressources/fonts/Autography.otf");
 }
 
@@ -65,8 +65,7 @@ section h1{
 section h2 {
     margin-top: 5%;
     margin-left: -5%;
-    color: #E3CC1D;
-    
+    color: #E3CC1D;  
 }
 
 section a {
