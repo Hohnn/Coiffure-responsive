@@ -3,10 +3,13 @@
   src: local("ressources/fonts/Autography.otf");
 }
 
+html {
+  color: #707070;
+}
 #background {
   width: 100%;
   height: 1200px;
-  background-image: url("/Users/Jonathan/Documents/siteCcoiffeur/protype-coiffure/ressources/img/background2 dimensionné.jpg");
+  background-image: url("https://www.wallpapertip.com/wmimgs/76-761019_344736-title-women-face-wallpaper-hair-color-model.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -40,15 +43,25 @@
   margin-right: 10%;
 }
 
+/*=================mise en forme navbar============================*/
 #navBarreText {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 25px;
-  font-family: "Autography", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-family: "Autography";
   src: local("ressources/fonts/Autography.ttf");
 }
+
+#navBarreText a{
+  text-decoration: none;
+  color: #707070;
+}
+#navBarreText a:hover{
+  color:#E3CC1D
+}
+/*==============fin de mise en forme navbar========================*/
 
 /* ici commence les mentions legales*/
 
@@ -88,13 +101,25 @@
   margin-top: 1%;
 }
 
+/*==============debut de mise en forme footer========================*/
 #footNavTexte {
   width: 100%;
   height: 100%;
   display: flex;
   align-content: space-between;
-  font-size: 25px;
+  font-size: 30px;
+  color: #707070;
   justify-content: space-between;
-  font-family: "Autography", Arial, Helvetica, sans-serif;
-  src: local("ressources/fonts/Autography.ttf");
 }
+
+#footNavTexte a {
+  text-decoration: none;
+  font-family: "Autography";
+  src: local("ressources/fonts/Autography.ttf");
+  color: #707070;
+}
+
+#footNavTexte a:hover{
+  color:#E3CC1D;
+}
+/*==============fin de mise en forme footer========================*/
