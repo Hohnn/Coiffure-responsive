@@ -1,0 +1,14 @@
+body {
+    box-sizing: border-box;
+}
+
+.background {
+    background: url(/ressources/img/background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Ballet', cursive;
+    font-size: 5rem;
+}
+
