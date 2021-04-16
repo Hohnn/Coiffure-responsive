@@ -1,4 +1,7 @@
-
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .gold{
     color: #d09519;
     font-size: 2em;
@@ -23,4 +26,8 @@ ul li{
 .mentions{
     font-size: 10px;
     color: grey;
+}
+ul{
+    margin: 0px;;
+    padding: 0px
 }
