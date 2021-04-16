@@ -24,10 +24,12 @@ ul li{
     width:20px;
 }
 .mentions{
-    font-size: 10px;
     color: grey;
 }
 ul{
     margin: 0px;;
     padding: 0px
 }
+/* #left{
+    margin-right: -1.3em;
+} */
