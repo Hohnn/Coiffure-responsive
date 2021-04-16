@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css-responsive/style.css"> <!-- ne rien supprimer -->
+    <!-- Link votre css ici -->
+    <link rel="stylesheet" href="./css-responsive/créationCompte.css">
+    <title>Créer votre compte</title> <!-- Changer le titre -->
+</head>
+<body class="background"">
+    <div class="container">
+        <header class="row align-items-center my-4">
+            <div class="d-none d-md-flex col-md-3">
+                <img class="w-100" src="ressources/img/logo.jpeg" alt="logo">
+            </div>
+            <div class="col text-center text-md-start">
+                <h1>Nicolas Coiffure</h1>
+            </div>
+        </header>
+        <nav class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md navbar-light fs-5">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="acceuil.html" title="vers la page Acceuil">Accueil</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="soins.html" title="vers la page Acceuil">Soins</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="zone_Espace_Coiffure.html" title="vers la page Coiffure">Coiffure</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="maquetteepilation.html" title="vers la page Epilation">Epilation</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Compte
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="creer_votre_compte.html" title="vers la page Compte">Mon compte</a></li>
+                              <li><a class="dropdown-item" href="Panier.html" title="vers la page Panier">Panier</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </nav>
+
+        <!-- Mettre le contenu ici -->
+        <div class="container-fluid">
+          <div class="row my-5">
+            <div class="col">
+              <div class="formul glass p-3">
+                <h2 class="text-center">Créer votre compte</h2>
+                <ul class="mt-4">
+                  <li><label for="mail">l'adresse mail : </label><input class="supercase" type="email" placeholder="l'adresse mail" id="mail" name="cartedecredit"></li>  
+                <li><label for="Nom">Nom :</label><input class="supercase" type="text" placeholder="Nom" id="Nom" name="Cartedecredit"></li>
+                <li><label for="Prénom">Prénom :</label><input class="supercase" type="text" placeholder="Prénom" id="Prénom" name="Cartedecredit"></li>
+                <li><label for="Adresse">Nom :</label><input class="supercase" type="text" placeholder="Adresse" id="Adresse" name="Cartedecredit"></li>
+                <li><label for="Codepostal">Code postal : </label><input class="supercase" type="number" placeholder="Code Postal" id="Codepostal" name="cartedecredit"></li>
+                <li><label for="Région">Région :</label><input class="supercase" type="text" placeholder="Région" id="Région" name="Cartedecredit"></li>
+                <li><label for="Pays">Pays :</label><input class="supercase" type="text" placeholder="Pays" id="Pays" name="Cartedecredit"></li>
+                <li><label for="nombre">N° de téléphone : </label><input class="supercase" type="number" placeholder="numéro" id="nombre" name="cartedecredit"></li>
+                <li><label for="Mot de passe">Mot de passe :</label><input class="supercase" type="text" placeholder="Mot de passe" id="Mot de passe" name="Cartedecredit"></li>
+                <li><label for="Mot de passe2">Confirmer pwd :</label><input class="supercase" type="text" placeholder="Confirmer mon mot de passe" id="Mot de passe2" name="Cartedecredit"></li>
+                </ul>
+                <div class="d-flex">
+                  <a href="#" class="btn btn-warning ms-auto m-2">Valider</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="row">
+            <div class="col">
+                <ul class="nav flex-column flex-md-row">
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="maquettecontact.html" title="vers la page Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="maquettementionslegales.html" title="vers la page Mentions legales">Mentions legales</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="maquettePlanDuSite.html" title="vers la page Plan du site">Plan du site</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="maquetteCGV.html" title="vers la page Conditions générales">Conditions générales</a>
+                    </li>
+                  </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

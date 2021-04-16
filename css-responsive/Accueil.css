@@ -1,0 +1,14 @@
+.carous img{
+    object-fit: cover;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.carous {
+    border-radius: 20px;
+}
+
+.grey {
+    color: rgb(117, 117, 117);
+    max-width: 300px;
+}

@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+label {
+    width: 50%;
+}
+
+input {
+    width: 50%;
+}
+
+.formul {
+    width: 450px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .formul {
+        width: 100% !important;
+    }    
+}
