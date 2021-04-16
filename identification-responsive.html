@@ -69,10 +69,15 @@
               <div class="d-flex flex-column glass p-4" style="max-width: 450px;">
                 <h2 class="text-center mb-3">S'identifier</h2>
                 <p>Adresse email ou numéro de téléphone portable.</p>
-                <input type="text" name="login" id="login" placeholder="Adresse email ou N° de téléphone">
+                <form action="login" class="d-flex flex-column">
+                  <input type="email" id="email" pattern=".+@globex.com" size="30" required placeholder="Adresse email">
                 <p class="mt-3">En passant votre commande, vous acceptez les conditions générales de Nicolas Coiffure. Veuillez consulter notre Notice Protection de vos informations personnelles, notre Notice Cookies et notre Notice Annonces publicitaires basées sur vos centres d'intéret.</p>
                 <a href="#">avez-vous besoin d'aide ?</a>
-                <a href="#" class="btn btn-warning mt-3">Créer votre compte</a>
+                <input type="submit" value="Connection" class="btn btn-warning mt-3 d-block">
+                <a href="CréationCompte-responsive.html" class="btn btn-warning mt-3">Créer votre compte</a>
+
+                </form>
+                
               </div>
             </div>
           </div>

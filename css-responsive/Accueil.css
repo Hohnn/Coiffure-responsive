@@ -4,6 +4,12 @@
     border-radius: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .carous img {
+        height: 250px;
+    }
+}
+
 .carous {
     border-radius: 20px;
 }
