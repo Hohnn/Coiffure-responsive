@@ -1,0 +1,26 @@
+
+.gold{
+    color: #d09519;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.list-group-item {
+    border: none;
+}
+.date li{
+    background-color: transparent;
+}
+.sexe{
+    color: #d09519;
+    font-size: 1.3em;
+}
+ul li{
+    list-style-type: none;
+}
+.panier{
+    width:20px;
+}
+.mentions{
+    font-size: 10px;
+    color: grey;
+}
